@@ -34,39 +34,55 @@ The dataset contains customer information such as:
 
 # 📷 Project Visualizations
 
+# 📷 Project Visualizations
+
 ## Correlation Heatmap
 
-The heatmap shows the correlation between numerical features used for customer segmentation.
+The correlation heatmap highlights the relationships between numerical features, helping identify feature dependencies and potential correlations within the customer dataset.
 
 <p align="center">
-  <img src="images/correlation-heatmap.png" width="700">
+  <img src="images/correlation-heatmap.png" width="750">
 </p>
 
 ---
 
 ## Elbow Method
 
-```markdown
-![Elbow Method](images/elbow_method.png)
-```
+The Elbow Method was used to determine the optimal number of clusters by analyzing the Within-Cluster Sum of Squares (WCSS) for different values of *K*.
+
+<p align="center">
+  <img src="images/elbow_method.png" width="700">
+</p>
 
 ---
 
-## PCA Customer Clusters
+## Silhouette Score
 
-```markdown
-![PCA Clusters](images/pca_clusters.png)
-```
+The Silhouette Score evaluates clustering quality by measuring how well each customer belongs to its assigned cluster compared to other clusters.
+
+<p align="center">
+  <img src="images/silhouette_score.png" width="700">
+</p>
+
+---
+
+## 3D PCA Customer Clusters
+
+A 3D visualization of customer segments after applying **Principal Component Analysis (PCA)**. Each color represents a different customer cluster identified by the clustering algorithm.
+
+<p align="center">
+  <img src="images/pca_clusters.png" width="750">
+</p>
 
 ---
 
 ## Cluster Distribution
 
-```markdown
-![Cluster Distribution](images/cluster_distribution.png)
-```
+This chart shows the number of customers assigned to each cluster, providing an overview of the distribution of customer segments.
 
----
+<p align="center">
+  <img src="images/cluster_distribution.png" width="650">
+</p>
 
 ## 🧠 Machine Learning Pipeline
 
