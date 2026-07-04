@@ -36,10 +36,11 @@ The dataset contains customer information such as:
 
 ## Correlation Heatmap
 
+The heatmap shows the correlation between numerical features used for customer segmentation.
 
-```markdown
-![Correlation Heatmap](images/correlation_heatmap.png)
-```
+<p align="center">
+  <img src="images/correlation-heatmap.png" width="700">
+</p>
 
 ---
 
