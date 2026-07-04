@@ -1,0 +1,29 @@
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Anaconda/Jupyter project metadata
+anaconda_projects/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
